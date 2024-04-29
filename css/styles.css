@@ -1,0 +1,115 @@
+
+
+.body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+    background-color: black;
+    margin-left: 25px;
+  }
+
+  h1 {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+    font-size: 70px;
+  }
+
+pre {
+    color: #f8b97f;
+    font-size: 30px;
+  }
+
+h2, h3, h4, h5 {
+    color: rgb(19, 179, 179);
+    font-size: 20px;
+  }
+
+strong {
+    color: rgb(3, 137, 255);
+  }
+
+mark {
+    color: rgb(105, 238, 255);
+    background-color: rgb(9, 97, 173);
+}
+
+a {
+  color: rgb(236, 75, 110);
+  text-decoration: none; 
+}
+
+a:hover {
+  color: aqua;
+}
+
+table {
+  border: 2px dotted  #ec4b6e;
+  border-collapse: collapse;
+  padding: 10px 5px 10px 5px;
+  height: 30vh;
+}
+
+.table-header {
+  font-size: 16px;
+  background-color: rgb(59, 59, 160);
+  padding-top: 10px;
+}
+
+
+tr {
+  border: #449dd1 solid;
+}
+
+ol {
+  list-style-type: upper-latin;
+
+}
+
+ul {
+  list-style-type: square;
+}
+
+tr:nth-child(even) {
+  background-color: #064e4e; */
+}
+
+iframe {
+  width: 30vw;
+  height: 30vh;
+}
+
+.shiryu {
+  border-radius: 15px;
+}
+
+h6 {
+  font-size: medium;
+}
+
+#giphy-cdz {
+  border-radius: 20px;
+}
+
+button {
+  background-color: #449dd1;
+  color: azure;  
+  height: 35px;
+  pointer-events: fill;
+  font-size: medium;
+  border-radius: 7px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #ec4b6e;;
+  color: #000000;
+  border-radius: 7px;
+}
